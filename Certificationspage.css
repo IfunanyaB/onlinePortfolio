@@ -1,0 +1,306 @@
+.certificationspage.main {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+  overflow: hidden;
+}
+.certificationspage .aboutMeSection {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color:#1b0c76;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #68aef8; 
+}
+.certificationspage .flex_row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 61px 20px 40px 24px;
+  max-width: 1396px;
+}
+@media (max-width: 991px) {
+  .certificationspage .flex_row {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 575px) {
+  .certificationspage .flex_row {
+    margin: 61px 16px 40px;
+  }
+}
+@media (max-width: 383px) {
+  .certificationspage .flex_row {
+    margin: 50px 8px 40px;
+  }
+}
+.certificationspage .logo_title {
+  width: 391px;
+  font: 400 44px/2.84 Frijole, Helvetica, Arial, serif;
+  color: #1b0c76;
+  letter-spacing: 3.52px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 991px) {
+  .certificationspage .logo_title {
+    align-items: flex-start;
+    width: 100%;
+    font-size: 40px;
+  }
+}
+@media (max-width: 479px) {
+  .certificationspage .logo_title {
+    font-size: 36px;
+  }
+}
+.certificationspage .nav_bar {
+  margin: 34px 0 216px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: #1e1e1e;
+  letter-spacing: 1.71px;
+}
+@media (max-width: 991px) {
+  .certificationspage .nav_bar {
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .certificationspage .nav_bar {
+    font-size: 20px;
+  }
+}
+.certificationspage .nav_bar1 {
+  margin: 34px 0 216px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: #1e1e1e;
+  letter-spacing: 1.92px;
+}
+@media (max-width: 991px) {
+  .certificationspage .nav_bar1 {
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .certificationspage .nav_bar1 {
+    font-size: 20px;
+  }
+}
+.certificationspage .certificationsSection {
+  display: flex;
+  flex-direction: column;
+  min-height: 700px;
+  background-color: white;
+}
+.certificationspage .certifications {
+  display: flex;
+  justify-content: center;
+  margin: 273px auto 302px;
+  font: 700 40px/3.12 Inika, Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.certificationspage .imageGallerySection {
+  display: flex;
+  flex-direction: column;
+}
+.certificationspage .flex_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 145px 0;
+  margin: 39px 0 30px 2px;
+  max-width: 1438px;
+}
+@media (max-width: 575px) {
+  .certificationspage .flex_col {
+    gap: 80px 0;
+  }
+}
+@media (max-width: 383px) {
+  .certificationspage .flex_col {
+    gap: 50px 0;
+  }
+}
+.certificationspage .image5 {
+  width: 99%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.certificationspage .image7 {
+  width: 99%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.certificationspage .contactDetailsSection {
+  display: flex;
+  flex-direction: column;
+}
+.certificationspage .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 191px 0;
+  margin: 70px 0 264px 32.15%;
+  width: 409px;
+  max-width: 85%;
+}
+@media (max-width: 1199px) {
+  .certificationspage .flex_col1 {
+    margin: 70px auto 264px;
+  }
+}
+@media (max-width: 991px) {
+  .certificationspage .flex_col1 {
+    gap: 150px 0;
+    margin: 70px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .certificationspage .flex_col1 {
+    gap: 80px 0;
+    margin: 70px auto 80px;
+  }
+}
+@media (max-width: 383px) {
+  .certificationspage .flex_col1 {
+    gap: 50px 0;
+    margin: 50px auto;
+  }
+}
+.certificationspage .contactDetailsSection_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 700 40px/3.12 "Inria Serif", Helvetica, Arial, serif;
+  color: #1e1e1e;
+  text-align: center;
+  letter-spacing: 3px;
+}
+@media (max-width: 991px) {
+  .certificationspage .contactDetailsSection_ {
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .certificationspage .contactDetailsSection_ {
+    font-size: 32px;
+  }
+}
+.certificationspage .flex_row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  width: 100%;
+}
+@media (max-width: 383px) {
+  .certificationspage .flex_row1 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.certificationspage .contactDetailsSection__ {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  min-width: 0;
+}
+.certificationspage .image1 {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: 100px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.certificationspage .contactDetailsSection1 {
+  position: absolute;
+  bottom: -92px;
+  left: 50%;
+  width: 90px;
+  height: 125px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: black;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 991px) {
+  .certificationspage .contactDetailsSection1 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .certificationspage .contactDetailsSection1 {
+    font-size: 20px;
+  }
+}
+.certificationspage .contactDetailsSection2 {
+  position: absolute;
+  bottom: -92px;
+  left: 50%;
+  width: 73px;
+  height: 125px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: black;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 991px) {
+  .certificationspage .contactDetailsSection2 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .certificationspage .contactDetailsSection2 {
+    font-size: 20px;
+  }
+}
+.certificationspage .contactDetailsSection__1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+  min-width: 0;
+}
+.certificationspage .image3 {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: 86px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.certificationspage .contactDetailsSection3 {
+  position: absolute;
+  bottom: -99px;
+  left: 50%;
+  width: 100px;
+  height: 125px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: black;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 991px) {
+  .certificationspage .contactDetailsSection3 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .certificationspage .contactDetailsSection3 {
+    font-size: 20px;
+  }
+}

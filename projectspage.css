@@ -1,0 +1,488 @@
+.untitled-page.main {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/cover no-repeat;
+  overflow: hidden;
+}
+.untitled-page .aboutMeAndEducationSection {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color:#1b0c76;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #68aef8; 
+}
+.untitled-page .flex_row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 61px 20px 40px 24px;
+  max-width: 1396px;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_row {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_row {
+    margin: 61px 16px 40px;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_row {
+    margin: 50px 8px 40px;
+  }
+}
+.untitled-page .logo_title {
+  width: 391px;
+  font: 400 44px/2.84 Frijole, Helvetica, Arial, serif;
+  color: #1b0c76;
+  letter-spacing: 3.52px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 991px) {
+  .untitled-page .logo_title {
+    align-items: flex-start;
+    width: 100%;
+    font-size: 40px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .logo_title {
+    font-size: 36px;
+  }
+}
+.untitled-page .medium_title {
+  margin: 34px 0 216px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: #1e1e1e;
+  letter-spacing: 1.71px;
+}
+@media (max-width: 991px) {
+  .untitled-page .medium_title {
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .medium_title {
+    font-size: 20px;
+  }
+}
+.untitled-page .medium_title1 {
+  margin: 34px 0 216px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: #1e1e1e;
+  letter-spacing: 1.92px;
+}
+@media (max-width: 991px) {
+  .untitled-page .medium_title1 {
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .medium_title1 {
+    font-size: 20px;
+  }
+}
+.untitled-page .nav_title {
+  display: flex;
+  justify-content: center;
+  font: 700 40px/3.12 "Inria Serif", Helvetica, Arial, serif;
+  color: #1e1e1e;
+  text-align: center;
+  padding: 0 16px 32px;
+  letter-spacing: 3.2px;
+}
+@media (max-width: 991px) {
+  .untitled-page .nav_title {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .nav_title {
+    font-size: 32px;
+  }
+}
+.untitled-page .portfolioSection {
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page .flex_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px 0;
+  margin: 111px auto 224px;
+  width: 100%;
+  max-width: 1440px;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col {
+    margin: 111px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col {
+    gap: 50px 0;
+    margin: 50px auto;
+  }
+}
+.untitled-page .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 95px 0;
+  width: 99.79%;
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col1 {
+    gap: 80px 0;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col1 {
+    gap: 50px 0;
+  }
+}
+.untitled-page .content_box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 2px;
+  background-color: #2b9ea6;
+}
+.untitled-page .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 86px 0;
+  margin: 272px 0 124px 4.46%;
+  width: 395px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col2 {
+    margin: 150px 0 124px 4.46%;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col2 {
+    gap: 80px 0;
+    margin: 80px 0 80px 4.46%;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col2 {
+    gap: 50px 0;
+    margin: 50px 0 50px 4.46%;
+  }
+}
+.untitled-page .portfolioSection__ {
+  font: 700 40px/3.12 Inika, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page .portfolioSection__ {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .portfolioSection__ {
+    font-size: 32px;
+  }
+}
+.untitled-page .btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 36px 0 0;
+  font: 400 36px/1.22 Roboto, Helvetica, Arial, serif;
+  color: #02542d;
+  text-align: center;
+  background-color: #f6effa;
+  border-radius: 8px;
+  padding: 24.5px 8px;
+  outline: 1px solid #2c2c2c;
+  outline-offset: -1px;
+}
+.untitled-page .content_box1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2px 0 0;
+  background-color: #3946c0;
+}
+.untitled-page .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  margin: 264px auto 93px;
+  width: 86.27%;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col3 {
+    margin: 150px auto 93px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col3 {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col3 {
+    margin: 50px auto;
+  }
+}
+.untitled-page .portfolioSection__1 {
+  width: 618px;
+  max-width: 85%;
+  font: 700 40px/3.12 Inika, Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 991px) {
+  .untitled-page .portfolioSection__1 {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .portfolioSection__1 {
+    font-size: 32px;
+  }
+}
+.untitled-page .btn1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 auto;
+  width: 358px;
+  max-width: 100%;
+  font: 400 36px/1.22 Roboto, Helvetica, Arial, serif;
+  color: #160041;
+  text-align: center;
+  background-color: #f6effa;
+  border-radius: 8px;
+  padding: 24.5px 8px;
+  outline: 1px solid #2c2c2c;
+  outline-offset: -1px;
+}
+.untitled-page .content_box2 {
+  display: flex;
+  flex-direction: column;
+  width: 99.65%;
+  background-color: #613caf;
+}
+.untitled-page .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  gap: 71px 0;
+  margin: 298px auto 113px;
+  width: 1200.90625px;
+  max-width: 85%;
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col4 {
+    margin: 150px auto 113px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col4 {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col4 {
+    gap: 50px 0;
+    margin: 50px auto;
+  }
+}
+.untitled-page .btn2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 auto;
+  width: 359px;
+  max-width: 100%;
+  font: 400 36px/1.22 Roboto, Helvetica, Arial, serif;
+  color: #5b4397;
+  text-align: center;
+  background-color: #f6effa;
+  border-radius: 8px;
+  padding: 24.5px 8px;
+  outline: 1px solid #2c2c2c;
+  outline-offset: -1px;
+}
+.untitled-page .contactDetailsSection {
+  display: flex;
+  flex-direction: column;
+}
+.untitled-page .flex_col5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 191px 0;
+  margin: 127px 0 264px 32.15%;
+  width: 409px;
+  max-width: 85%;
+}
+@media (max-width: 1199px) {
+  .untitled-page .flex_col5 {
+    margin: 127px auto 264px;
+  }
+}
+@media (max-width: 991px) {
+  .untitled-page .flex_col5 {
+    gap: 150px 0;
+    margin: 127px auto 150px;
+  }
+}
+@media (max-width: 575px) {
+  .untitled-page .flex_col5 {
+    gap: 80px 0;
+    margin: 80px auto;
+  }
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_col5 {
+    gap: 50px 0;
+    margin: 50px auto;
+  }
+}
+.untitled-page .nav_title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 700 40px/3.12 "Inria Serif", Helvetica, Arial, serif;
+  color: #1e1e1e;
+  text-align: center;
+  letter-spacing: 3px;
+}
+@media (max-width: 991px) {
+  .untitled-page .nav_title1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .nav_title1 {
+    font-size: 32px;
+  }
+}
+.untitled-page .flex_row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  width: 100%;
+}
+@media (max-width: 383px) {
+  .untitled-page .flex_row1 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.untitled-page .group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  min-width: 0;
+}
+.untitled-page .image1 {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: 100px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page .contactDetailsSection__ {
+  position: absolute;
+  bottom: -92px;
+  left: 50%;
+  width: 90px;
+  height: 125px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: black;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 991px) {
+  .untitled-page .contactDetailsSection__ {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .contactDetailsSection__ {
+    font-size: 20px;
+  }
+}
+.untitled-page .contactDetailsSection__1 {
+  position: absolute;
+  bottom: -92px;
+  left: 50%;
+  width: 73px;
+  height: 125px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: black;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 991px) {
+  .untitled-page .contactDetailsSection__1 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .contactDetailsSection__1 {
+    font-size: 20px;
+  }
+}
+.untitled-page .group1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+  min-width: 0;
+}
+.untitled-page .image3 {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: 86px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.untitled-page .contactDetailsSection__2 {
+  position: absolute;
+  bottom: -99px;
+  left: 50%;
+  width: 100px;
+  height: 125px;
+  font: 700 24px/5.2 "Inria Serif", Helvetica, Arial, serif;
+  color: black;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 991px) {
+  .untitled-page .contactDetailsSection__2 {
+    align-items: flex-start;
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  .untitled-page .contactDetailsSection__2 {
+    font-size: 20px;
+  }
+}
